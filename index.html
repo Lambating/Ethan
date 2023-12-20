@@ -1,0 +1,145 @@
+<html>
+    <head>
+	<style>
+	
+	.container {
+        display:grid;
+		border:5px solid darkgreen;
+		grid-template-rows:1fr 3fr 1fr;
+		}
+		
+	.header {
+	    background:darkseagreen;
+		font-size:3em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+		
+	.nav {
+	    background:green;
+		display:flex;
+		flex-direction:column;
+	    font-size:1.5em;
+		text-align:center;
+		grid-column:span 1;
+	    }
+		
+	.main {
+	    background:forestgreen;
+	    font-size:1.5em;
+		text-align:center;
+		padding:10px;
+		grid-column:span 2;
+		}
+		
+	.footer {
+	    background:lightgreen;
+	    font-size:1em;
+		text-align:center;
+		grid-column:span 3;                                      
+	        padding:10px;
+		}
+		
+	@media only screen and (max-width:600px) {
+	    
+		.container{
+		    display:grid;
+			border:5px solid darkgreen;
+			 grid-template-columns: 1fr 3fr;
+		  grid-template-rows:1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+ 		    }
+			
+		.header {
+	    background:darkseagreen;
+		font-size:3em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+		.nav {
+	    background:green;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 1;
+	    }
+	.main {
+	    background:forestgreen;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 2;
+		}
+		.footer {
+	    background:lightgreen;
+	    font-size:1em;
+		text-align:center;
+		grid-column:span 3;                                      
+	        padding:10px;
+		}
+		
+	 }
+	 @media only screen and (max-width:300px) {
+	    
+		.container{
+		    display:grid;
+			border:5px solid darkgreen;
+			grid-template-rows:1fr 1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+ 		    }
+			
+		.header {
+	    background:darkseagreen;
+		font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+		
+	.nav {
+	    background:green;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+		
+	.main {
+	    background:forestgreen;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}
+		
+	.footer {
+	    background:lightgreen;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;                                      
+	
+		}
+	
+	
+	
+	    }
+	</style>
+	    <title>PT</title>
+	</head>
+<body style="background-color:mediumseagreen;">
+
+<div class=container>	
+   
+    <div class=header>My Website</div>
+	
+	<div class=nav>
+	
+	<a href=ABOUT.html>About Me</a>
+	
+	<a href=TALENTS.html>My Talents</a><a href=SKILLS.html>My Skills</a>
+	
+	</div>
+	
+	<div class=main>Ethan Gabriel Lambating 9-Calasanz Major PT in Computer.<br> This is my personal website where I talk about myself.<br></br></br></div>
+	<div class=footer><a href=README.html>Created by Ethan Lambating</a></div>
+	
+	</div>
+</body>
+</html>	
